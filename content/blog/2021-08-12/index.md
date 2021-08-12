@@ -18,4 +18,4 @@ description: "안녕하세요, 블로그 첫번째 글 테스트 작성합니다
 - 딸기
 - 수박
 
-![waterdrop.png](waterdrop.png "waterdrop")
+![cat.png](cat.png "cat")
