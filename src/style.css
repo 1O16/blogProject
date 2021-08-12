@@ -75,7 +75,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(236, 177, 205); /* 배경색 변경 */
+  background: linear-gradient(to right, pink, plum, violet, plum, pink); /* 배경색 변경 */
 }
 
 body {

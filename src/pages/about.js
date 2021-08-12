@@ -5,20 +5,21 @@ import Seo from "../components/seo"
 
 import imgA from '../images/end.png';
 import imgB from '../images/start.png';
+import imgC from '../images/qrcode.jpg';
 
 const AboutPage = ({ location, data }) => (
     <Layout location={location} title={data.site.siteMetadata.title}>
       <Seo title="About" />
       <h1>About Me</h1>
       <div className="aboutstyle">
-      <p><img alt="iPhone_01" src={imgB} width='600' height='400'/></p>
+      <p><img src={imgB} alt="start" width='600' height='400'/></p>
       <p>
-          안녕하세요<br/>
-          다양한 정보를 공유하는 블로그입니다.
+          안녕하세요.<br/>
+          하나하나 발전해나가는 블로그입니다.
       </p>
-      <p>급변하는 시대에서 필요한 기술을 접목하여 새로운 가치를 창출할 수 있도록 노력합니다.</p>
-      <p>지식을 공유하고 더 나은 방향으로 나아가는 것을 추구합니다.</p>
-      <p><img src={imgA} alt="iPhone_11" width="600"/></p>
+      <p>제가 하고싶은 걸 올리거나 공부, 취미 등이 올라올 예정입니다.</p>
+      <p><img src={imgA} alt="end" width="600"/></p>
+      <p><img src={imgC} alt="qr" width="300"/></p>
       </div>
     </Layout>
   )
