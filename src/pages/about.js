@@ -20,6 +20,7 @@ const AboutPage = ({ location, data }) => (
       <p>제가 하고싶은 걸 올리거나 공부, 취미 등이 올라올 예정입니다.</p>
       <p><img src={imgA} alt="end" width="600"/></p>
       <p><img src={imgC} alt="qr" width="300"/></p>
+      <p>Contact : <a href="https://github.com/1O16">github</a></p>
       </div>
     </Layout>
   )
