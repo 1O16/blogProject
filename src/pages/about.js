@@ -10,7 +10,7 @@ import imgC from '../images/qrcode.jpg';
 const AboutPage = ({ location, data }) => (
     <Layout location={location} title={data.site.siteMetadata.title}>
       <Seo title="About" />
-      <h1>About Me</h1>
+      <h1>About Blog</h1>
       <div className="aboutstyle">
       <p><img src={imgB} alt="start" width='600' height='400'/></p>
       <p>
