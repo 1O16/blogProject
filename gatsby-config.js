@@ -3,7 +3,7 @@ module.exports = {
     title: `My first blog`,
     author: {
       name: `준석`,
-      summary: `who studying programing skills, computer language : JavaScript`,
+      summary: `공부, 취미등이 올라올 블로그입니다.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -126,5 +126,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `G-DS88K9WB3R`, // 측정 ID
+        head: false, // head에 tracking script를 넣고 싶다면 true로 변경 
+        anonymize: true,
+      },
+    },
   ],
 }
